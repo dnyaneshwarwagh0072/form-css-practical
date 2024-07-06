@@ -1,0 +1,121 @@
+body {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: black;
+    color: white;
+    font-family: "Poppins";
+}
+
+header {
+    margin-top: 200px;
+    padding-left: 15%;
+    font-size: 30px;
+    margin-bottom: -40px;
+}
+
+.main-container {
+    width: 70%;
+    margin: auto;
+}
+
+.form-container {
+    align-items: center;
+    width: 100%;
+}
+
+.common {
+    margin-top: 10px;
+}
+
+::placeholder {
+    color: white;
+}
+
+input:focus {
+    outline: none;
+    color: white;
+}
+
+#name {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+
+#email {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    color: white;
+    background-color: black;
+    border-bottom: 1px solid white;
+}
+
+#password {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+}
+
+#date {
+    width: 100%;
+    padding: 10px 0;
+    border: 0;
+    background-color: black;
+    color: white;
+    border-bottom: 1px solid white;
+    color: aliceblue;
+}
+
+button {
+    padding: 10px 40px;
+    margin-top: 20px;
+    font-size: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+
+
+
+input[type="radio"] {
+    width: 12px;
+    height: 12px;
+    margin: 0%;
+    margin-right: 10px;
+    background-color: black;
+    border: 1px solid #999;
+    cursor: pointer;
+    appearance: none;
+}
+
+input[type="radio"]:checked {
+    border: 2px solid #999;
+    cursor: pointer;
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    width: 12px;
+    height: 12px;
+    margin: 0%;
+    margin-right: 10px;
+    background-color: black;
+    border: 1px solid #999;
+    cursor: pointer;
+    appearance: none;
+}
+
+input[type="checkbox"]:checked {
+    border: 2px solid #999;
+    cursor: pointer;
+    background-color: white;
+}
